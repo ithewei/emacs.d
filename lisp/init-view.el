@@ -9,5 +9,10 @@
 (global-hl-line-mode 1)
 (setq default-cursor-type 'bar)
 (setq default-tab-width 4)
+(show-paren-mode t)
+(electric-pair-mode t)
+
+;; statusbar
+(fset 'yes-or-no-p 'y-or-n-p)
 
 (provide 'init-view)
