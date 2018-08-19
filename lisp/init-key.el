@@ -8,11 +8,9 @@
 ;;(global-set-key (kbd "C-b") 'move-beginning-of-line)
 ;;(global-set-key (kbd "C-e") 'move-end-of-line)
 
-(global-set-key (kbd "C-x C-x") 'set-mark-command)
-(global-set-key (kbd "C-z") 'undo)
-(global-set-key (kbd "C-w") 'kill-region)
-(global-set-key (kbd "C-q") 'kill-ring-save)
-(global-set-key (kbd "C-v") 'yank)
+(global-set-key (kbd "C-^") 'set-mark-command) ;;C-@
+(global-set-key (kbd "C-z") 'undo) ;;C-x u
+(global-set-key (kbd "C-v") 'yank) ;;C-y
 
 ;;(global-set-key (kbd "C-f") 'isearch-forward)
 (global-set-key (kbd "C-r") 'isearch-backward)
