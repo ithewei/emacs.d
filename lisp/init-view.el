@@ -7,8 +7,14 @@
 ;; editArea
 (global-linum-mode 1)
 (global-hl-line-mode 1)
+
+(setq-default cursor-type 'bar)
 (setq default-cursor-type 'bar)
+
+(setq-default indent-tabs-mode nil)
+(setq-default tab-width 4)
 (setq default-tab-width 4)
+
 (show-paren-mode t)
 (electric-pair-mode t)
 
