@@ -18,7 +18,7 @@
 (global-set-key (kbd "C-k") 'kill-whole-line)
 (global-set-key (kbd "C-/") 'comment-line)
 
-(global-set-key (kbd "`") 'shell)
+(global-set-key (kbd "C-`") 'shell)
 (global-set-key (kbd "RET") 'newline-and-indent)
 
 (provide 'init-key)
